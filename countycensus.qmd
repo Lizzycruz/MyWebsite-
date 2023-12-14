@@ -1,0 +1,211 @@
+---
+title: "Home Page"
+format: html
+editor: visual
+---
+
+# Elizabeth Cruz
+
+## Communication/Business/Journalism
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## Home Page
+
+![Picture of me playing soccer](images/DSC06972.JPG)
+
+#### Links to other pages of my site?
+
+#### [My GitHub](https://github.com/Lizzycruz/MyWebsite-)
+
+#### ![](images/EAC%20Resume%20.pdf)
+
+#### Current Contact Information:
+
+#### Cell: (516)-287-9661
+
+#### Email: ecruz18\@gwmail.gwu.edu
+
+## **A page featuring a walkthrough of an interactive county census analysis and map visualization of a chosen state you did in R.**
+
+## **A paper I have done during my time at GW:**
+
+##### The paper below is a reflection I wrote on my Small Group Communication class. In this class, I worked with two different small groups on two different projects. The paper consists of reflecting on different concepts learned in class and how these concepts were potentially utilized in the group projects that I was working on. I also compared both group projects and looked back on how I progressed as a group member and student.
+
+**Small Group Communication Reflection**
+
+```         
+Small Group Communication has enabled me to see working in groups differently, providing useful insight into how to best succeed in a group. I learned about how to best work through challenges that come with working in a group and how to navigate group differences. Putting these skills to use with the two group projects in this class enhanced my collaboration abilities and helped me work more efficiently and effectively in a group.
+
+Since working in groups was a main component of this class, it was interesting to note the different modes of communication used by various group members and classmates. Learning how to adapt and communicate to different people was an important part of success within a given task during a group conversation or class activity. A study online called \"Enhancing Small Group Communication in the Language Classroom. The Modern Language Journal '' evaluates the impact of a training program that implements cooperative strategy, focusing on the patterns of interaction that transpired while small groups completed an oral discussion. The assumption was said to be that students can be taught to interact with each other in a manner that would spark the creation of opportunities for growth and learning (Naughton, 2006). This is reminiscent of a discussion in class of what the benefits of working in groups are and how they foster creativity while allowing for different creative ways to problem solve. I think cooperative learning is an important factor of group work in allowing students to work together towards a common goal. This was seen during the third quiz because we did it as a group. We all worked together to generate good answers that resulted in a good grade on the quiz by collaborating, listening, and helping each other.
+
+The **rules** and **norms** of a group set the general foundation and standard for how the group is expected to operate. Group Norms are \"informal, implicit standards of behavior and procedures by which members operate, and group rules are \" formal, explicit standards of behavior and procedures by which a group operates\" (Adams et al., 2021). Rules and norms help a group function well and stay organized. During the second group project, many group norms and rules came into play when writing the group contract. This was more so establishing the rules, with the written out document, but would soon translate into norms as the group practiced them more. For the second project, my group contract consisted of what typical group rules might entail. This includes: being responsive to texts within at least 24 hours, communicating if there were any time conflicts, being respectful, and making sure members were doing their respective work for the project. For the group projects in this class, group norms primarily developed **explicitly** and **culturally** (Adams et al., 2021). Explicit norms are developed through \"explicit statements\" by a leader or group member (Adams et al., 2021).This was seen while making the group contracts and having conversations about what general expectations of the group would be. Norms were developed culturally because all of us live in the general culture of GW. With that, since all of us are GW students who have done group work before, we understand how these projects function and what they may consist of. In addition, GW students tend to be very driven with their school work, allowing for a norm to be established with a group of students who expect to succeed and do well in their classes. In both of my groups for project #1 and #2, there were no deviants. Deviants are \"members who consistently violate group norms\" (Adams et al., 2021). In my experiences working in these groups, I got the general sense that each member wanted to move along with the project, therefore there was no slacking with norms within the group. This may have been a detriment with the first project, which was finding ways to promote Communication as a second major. Since we had a bigger group, it was harder to hone in on the issue and refocus our communication. This was because we were focusing more on making sure everyone had something to work on and that everything was done in time.
+```
+
+During the first project, we were not clear in promoting the major in communication as effectively as we could, and groupthink could have played a part in this. The communication club was more of a focus for this project than it should have been. If someone had spoken up to switch gears and reevaluate, we could have had better feedback from the project. Ways that we learned to **prevent groupthink** include: "kicking the problem around, establishing norms of critical evaluation, preventing leaders from stating their preferences at the beginning of a group's decision-making or problem-solving session, and preventing insulation" (Adams et al., 2021). I have always been aware of what groupthink is and because of this I expected not to succumb to it. It is interesting reflecting back and realizing how many of us are susceptible without being aware of it. It shows how easy it is to follow the idea of a group when involved, because if a majority of the group agrees on a particular way to do something, it is easier to believe that it is correct. This especially felt true with the larger group I was in. A study called "The impact of group size and social presence on small-group communication: Does computer-mediated communication make a difference?" posed interesting questions and concluding results that are pertinent to this topic. In this study, "key communication factors (appropriateness, openness, richness, discussion quality, and accuracy) were compared for three different treatments (proximate without CMC support, proximate with CMC support, and virtual with CMC support)" (Lowry et al., 2006). Conclusions showed that FtF communication with CMC support yielded better communication outcomes than virtual communication with CMC support  (Lowry et al., 2006). This is understandable and something I agree with when doing group work, because I find face to face communication to be easier to communicate and complete work more efficiently. CMC in use with face to face communication is favorable as well. This was seen because during my second project with meetings when we could only facetime. If everyone's camera was on, we would still be productive. It was only more of a problem if everyone's camera was off or if we were not able to call or facetime at all, and had to resort to texting to communicate. Text made it more difficult because of not everyone being on their phones at the same time, therefore prompt messages could not be transmitted. 
+
+```         
+For both group projects and with the group quiz as well, I found that the more I participated and had my ideas accepted and used, the more I wished to collaborate and engage myself. When a group constantly rejects one\'s ideas or leaders take charge without asking for the input of others, it can result in isolation from the group. A study called \"The Effects of Communication Motives, Interaction Involvement, and Loneliness on Satisfaction: A Model of Small Groups\" focused on how different communication motives impacted \"influenced, involvement, and  loneliness\" and how these factors influenced group satisfaction (Anderson & Martin, 1995). Results showed that pleasure was grounds for communicating in a responsive manner, while \"escape, control, and inclusion\" were not reasons to communicate responsibly (Anderson & Martin, 1995). In addition, there was a direct relationship between the need for satisfaction and affection, which calls for the need for more training, education, and understanding the different motives of group members for group tasks (Anderson & Martin, 1995). Using this study to reflect on my interpersonal needs during group work, I have realized that feeling valued is a critical part of feeling positively engaged in a group project. This includes having positive and helpful feedback from my group members and not being overlooked, as on many occasions, one or two leaders like to take charge and fail to consider the input of others. Luckily with my group projects and my group work I did not feel overlooked and felt free to participate and share my thoughts. I do recognize however, that I tend to be quiet in my classes as I naturally enjoy listening more than participating. As the semester progressed, I was better with my participation, but this is still something that I am looking to improve on and I am hoping to share my thoughts during class/group work on a more consistent basis. Being in a small group of only three people for the second project definitely allowed me to find confidence in my ideas more, pushing me to speak up and take action. 
+
+This class has allowed me to learn how to become a better group member and navigate the difficulties of scheduling, communication, and time constraints that come with group work. I know what to prioritize in group projects and what habits to avoid to work towards a successful experience.I have grown as a student and individual, adapting worthwhile skills that will allow me to be successful when working in groups not only in my future career, but in the different facets of my life that form my identity.
+```
+
+## **News Story**
+
+**Dupont Underground: Advocacy Through Art in an Abandoned Metro Station**
+
+In a tunnel beneath one of Washington D.C.'s most culturally profound community circles, Dupont Underground has been a unique space to showcase art in The District. This abandoned subway station may not take its visitors to a physical location, but its linear path in displaying art takes one through a less bumpy, metaphorical artistic journey.  
+
+From drag shows to art exhibits to short film screenings, Dupont Underground has a wide array of choices to display art. This not only makes the organization what it is but assists in transforming the cultural identity in Washington D.C. through art.
+
+Ana Harvey is the CEO of Dupont Underground and has been there for a year and a half. What makes Dupont Underground special to her is its flexibility and how unusual it is.
+
+"It really allows us to highlight art that is probably more difficult to fit somewhere else," said Harvey. 
+
+She says that their goal is to create a platform for new talent and up-and-coming artists who need spaces to display their art. Dupont Underground is this space and this is their mission. 
+
+In March, they held an exhibit called "An Observation of the Resistance, Resilience, and Joy of the Black Woman." Harvey said that the artist was never a curator but came to Dupont Underground and expressed interest in curating. 
+
+"I said this is a place to curate and she curated. That made us really happy."
+
+Dupont Underground encourages artists to reach new heights and expand their vision.
+
+```         
+Blake Johnson is the program manager and has been at Dupont Underground since December.
+```
+
+What attracted Johnson to Dupont Underground is that the staff really embraces the space. "I appreciate that we don't try to hide what this space is and that we try to work with it rather than against it." 
+
+There are a variety of artists who they collaborate with. This ranges from working with an embassy for one month and then an individual artist the next month. Since there are myriad ways to make use of the space, it makes the experience all the more exciting.
+
+Lucrecia Laudi is the Vice Chair and one of the co-founders of Dupont Underground. She helped discover it about 15 years ago. She said that Dupont Underground became open to the public in 2016. 
+
+```         
+Laudi highlighted the location of Dupont Underground, saying that it is well-connected to all of The District.
+```
+
+"This is something very important to us because we can be accessible to everyone. This is sustainable development because we are really repurposing an existing infrastructure that's totally abandoned and closed," said Laudi. 
+
+They work for the people. Since this is done in a public space, Laudi said that they do not want commercial development there. 
+
+"We are a cultural platform. We are interdisciplinary," said Laudi. Giving exposure to individuals of different artistic backgrounds is an important part of their core mission. 
+
+```         
+Dupont Underground engages in collaborations and partnerships with all different cultures and types of art. This in turn attracts people with distinct interests. They bring in diversity through expression and exhibiting artists with different backgrounds. There are a lot of young people who visit, but there are also middle-aged and older people who go as well.
+```
+
+"At our last drag show, there was a guy that got pulled on stage that was 55. It was awesome. He was so sweaty when he left. He was amazing," said Johnson. 
+
+```         
+Being in Washington D.C. also enables them to consider how they can convey all of the diversity and identity that pulses throughout the city. This is why they present international perspectives. It\'s because people from all over the world live in the nation\'s capital.
+```
+
+"27,000 people come every year," said Harvey.
+
+```         
+They also offer the space free for nonprofit organizations. \"It's a huge space so as long as we don't have to spend money, you don't have to spend money,\" said Harvey. It is something she said they are very proud of.
+```
+
+"The way that we are able to do things on an international level and a local level literally could only happen in Washington D.C. and that's I think one of my favorite things about this space," said Johnson. 
+
+Dupont Underground gives people the opportunity to do something special. With Laudi's favorite exhibitions being those in architecture, Johnson's favorite was "The Cost of Living: An Observation of the Resistance, Resilience and Joy of the Black Woman." Harvey's favorite exhibit was "The Gender Within: The Art of Identity Exhibition."
+
+One of the reasons that Johnson wanted the job was because of the "The Gender Within" exhibit.  This exhibit was an open call to trans-artists from the area. Some of these artists have never had their work on display before, which excited Johnson. 
+
+Another significant exhibit for Harvey was "BLACK X." This was a video exhibit about mental health among African American males. 
+
+They are going to start a series called "Patient Advocacy Through Arts," which they will be doing once a year. 
+
+```         
+Most of the artists come to Dupont Underground themselves to have their art shown. \"We must get one or two a week,\" said Harvey. 
+```
+
+Abbas Shobeiri, artist and physician, started presenting his art exhibition "Do You See Me!Paintings of Postpartum Trauma and Healing" at Dupont Underground for the May exhibition. 
+
+Shobeiri is the head of the gynecology program at Inova Health. "My practice is dedicated to women, specifically to patients with postpartum issues. So, that's what I do. The exhibit that you see is a linear story of grief and resolution and recovery that starts from shock to resolution."
+
+```         
+The space was ideal for Shobeiri because the tunnel would allow him to carry the linear story. He said that other exhibits of space that he looked at did not have this kind of configuration.
+
+His exhibit showed paintings that were the result of a 30-year process of him listening to patients. Childbirth is usually viewed as a positive experience, but that is not always the case. When Shobeiri finished medical school and started hearing about the traumatic experiences of different women from childbirth, he realized that it is not always a happy experience.
+
+It took Shobeiri 15-20 years to construct the exhibit. There are statements aligned with each stage of postpartum trauma in his display of paintings. Many of the patients who visit look at the statements and deeply resonate with them.
+
+Whenever a patient made a statement to Shobeiri regarding postpartum trauma, he said that \"it literally gets stuck in your soul.\"
+
+He feels obligated to share these sentiments and statements to establish community with those continuing to heal from postpartum trauma. \"You need to do something with it because then it\'s a burden. Now you are a story keeper.\"
+
+By painting these sentiments, he said that he is lighting his own burden while bringing advocacy to the issue. Dupont Underground has allowed Shobeiri to do so.
+```
+
+ "I really like the space because if you look at my paintings, the way that I paint is very raw and I didn't want it to literally be in a place that doesn't have any character. Dupont Underground definitely has a lot of character," said Shobeiri. 
+
+```         
+The space and location of Dupont Underground are key for artists like Shobeiri to bring awareness to an issue.
+
+These kinds of artists continue to use Dupont Underground to expand their ideas, hopefully allowing their exhibits to gain traction and popularity.
+```
+
+"It functions like a partnership. Once we're actually in it with the artists, it's very much like we're working with these artists. Usually, the first approach is, 'I am an artist. I would like to display my pieces," said Johnson. 
+
+"We Look for content. It's not just, 'I wanna show my flowers," said Laudi. 
+
+```         
+In terms of future plans, Dupont Underground staff is working to upgrade the electrical system. They will also be installing a system for water which entails putting in bathrooms and sprinkler systems.
+```
+
+"We're gonna have a functioning place," said Harvey.
+
+```         
+They are also now ADA-accessible. They are improving the standards of the building in numerous ways, but want the general essence of the tunnel to remain the same. \"We don't wanna ruin the nature of it, but we wanna make sure it's a good place to visit,\" said Harvey.
+```
+
+In addition, Harvey said they have been getting requests for galas and parties, but do not want to take up these offers until the building is at the standard it needs to be at.
+
+"We're just creating a slightly more hospitable environment," said Johnson.
+
+Private events will bring in more funds for them, as they now only have \$5000, said  Harvey. 
+
+```         
+This will inevitably allow them to continue to do what they love to do: serve as a platform for creativity.
+```
+
+"I'm really excited about how programming is going to evolve and how more people from different walks of life will find us," said Harvey. 
+
+```         
+Attracting local populations is also important, so they won\'t forget that they are in Washington D.C, said Laudi.
+
+Laudi recognizes that they still need support and have a lot of work to do, especially with the impending construction on Dupont Circle starting Fall of 2023.
+```
+
+"They're gonna have to get into our tunnels, so we're gonna be affected in terms of noise and people," said Harvey.
+
+```         
+Harvey is fearful of what will be happening on the surface. The street is going to be closed, there will be traffic and nowhere to park. \"People may not want to come here,\" said Harvey.
+```
+
+This will be an issue that they have to deal with for two years and will have to find creative ways to navigate. 
+
+"It's going to be our challenge. We know how to engage. Our entry is not going to be affected," said Laudi. 
+
+```         
+Dupont Underground will overcome this obstacle to ensure that art, advocacy and culture continue to be dispersed in the Washington D.C. community. It\'s a matter for them to make it known that they are still alive and open. It\'s a matter for them to continue this upward trajectory, engaging people from all walks of life through art.
+```
+
+\
+\
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{r}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{r}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
