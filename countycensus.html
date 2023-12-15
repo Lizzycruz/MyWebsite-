@@ -47,6 +47,67 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="county-cenus" class="level1">
 <h1>County Cenus</h1>
+<section id="giving-it-a-try-for-real" class="level2">
+<h2 class="anchored" data-anchor-id="giving-it-a-try-for-real">Giving it a try for real</h2>
+<p>Let’s do it for real, with a real API call. We’ll ask for median income by state:</p>
+<p>https://api.census.gov/data/2020/acs/acs5?get=NAME,B19013_001E&amp;for=state:*&amp;key=2a6f8c21a30d3024e038d67d7d4eba647dc79cd4</p>
+<p>We can copy and paste this directly into a web browser and see if it works. Does it work?</p>
+<p>Now let’s ask for median income county, for New York:</p>
+<p>https://api.census.gov/data/2020/acs/acs5/subject?get=NAME,S0101_C01_001E&amp;for=county:*&amp;in=state:51&amp;key=2a6f8c21a30d3024e038d67d7d4eba647dc79cd4</p>
+<p>We can try to convert this output into a table using the jsonlite package directly in R:</p>
+<p><code>scq mytable &lt;- fromJSON("https://api.census.gov/data/2020/acs/acs5/subject?get=NAME,S0101_C01_001E&amp;for=county:*&amp;in=state:51&amp;key=2a6f8c21a30d3024e038d67d7d4eba647dc79cd4") mytable %&gt;% head(25)}</code></p>
+<p>There are still some issues here with the header names we’d have to clean up. But we’d get there. Even so, it can get pretty cumbersome having to work with URL combinations every time we want to grab something, and can be confusing when you’re new to working with raw API calls overall.</p>
+</section>
+</section>
+<section id="tidycensus-to-the-rescue" class="level1">
+<h1>Tidycensus to the rescue</h1>
+<p>While we could deal with all the intricacies of the raw Census API, we thankfully don’t have to.</p>
+<p>Why we’ll use tidycensus instead.</p>
+<p>https://walker-data.com/tidycensus/index.html</p>
+<p>Let’s talk why it’s so helpful.</p>
+<section id="credentials" class="level4">
+<h4 class="anchored" data-anchor-id="credentials">Credentials</h4>
+<p>First step to using it is loading your API Key credential. You thankfully only have to do this one time on your computer and it will create a little file that remembers it each time.</p>
+<p><code>scq # uncomment to run, then recomment it out so you don't run it every time # census_api_key("", install=TRUE)}</code></p>
+<p>Why might we not want to put our key in code that will be shared or visible publicly? Let’s talk about the risk there.</p>
+<p>How might we get around that? Well there are a few ways, but one of the best and most straightforward to is store the actual key in what’s called the .REnviron file on your computer…and then just pull from that place in the code. That way you can do something like this:</p>
+<p><code>scq # uncomment the line below to run - this assumes your key is saved in your .Renviron file # census_api_key(Sys.getenv("MYCENSUSAPIKEY"), install=TRUE)}</code></p>
+<p>How do we find the .Renviron file? Using the usethis package, it’s super easy, barely an inconvenience. (Kudos to anyone who gets that reference.) Run this line in the console and it will automatically locate the file on your computer for you:</p>
+<p><code>usethis::edit_r_environ()</code></p>
+<p>If you never put anything there before, it will just be blank. That’s ok. Put in a line that includes the name you want to call your saved secret variable, and then the value with it:</p>
+<p><code>MYCENSUSAPIKEY='tktktktktktk'</code></p>
+<p>Then save the file, restart the R session, and you’re done.</p>
+</section>
+<section id="census-codesvariables" class="level4">
+<h4 class="anchored" data-anchor-id="census-codesvariables">Census codes/variables</h4>
+<p>And of course, remember trying to find those Census variables? There’s tidycensus itself which helps gather them together for you too!</p>
+<p><code>scq censusvariables &lt;- load_variables(2020, "acs5", cache = TRUE)}</code></p>
+</section>
+<section id="lets-get-started-pulling-some-data" class="level3">
+<h3 class="anchored" data-anchor-id="lets-get-started-pulling-some-data">Let’s get started pulling some data</h3>
+<pre class="{r} #choose some census measures medincome <- &quot;B19013_001&quot;}"><code></code></pre>
+<p>Make the call for ACS data, which default to the latest ACS5 (in this case 2016-2020.</p>
+<p><code>scq get_acs(geography = "county", variables = medincome, state = "NY")}</code></p>
+<p>Can set it to wide format too. That’s easier for us to work with here.</p>
+<p>{r}</p>
+<p>get_acs(geography = “county”, variables = medincome, state = “NY”, output = “wide”)</p>
+<p>{r} #let’s add another variable to the mix medage &lt;- “B01002_001”</p>
+<p>#run it again for both income and age get_acs(geography = “county”, variables = c(medincome, medage), state = “NY”)</p>
+<p>{r} #now we can see why wide is different get_acs(geography = “county”, variables = c(medincome, medage), state = “NY”, output = “wide”)</p>
+<p>{r} #we can also save a series of variables like this, to make our lives easier myvars &lt;- c(totalpop = “B01003_001”, medincome = “B19013_001”, medage = “B01002_001” )</p>
+<p>{r} #watch what happens now - note the column names that persist… va_counties &lt;- get_acs(geography = “county”, variables = c(myvars), state = “NY”, output = “wide”)</p>
+<p>{r} #remove MOE columns - they all end with “M” NY_counties &lt;- NY_counties %&gt;% select(-ends_with(“M”))</p>
+<p>va_counties</p>
+<p>{r} #remove that trailing “E” colnames(va_counties) &lt;- sub(“E$”, ““, colnames(va_counties)) # $ means end of string only</p>
+<p>va_counties</p>
+<p>{r} ### what if we want the mapping/geospatial boundaries too? NY_counties_withgeo &lt;- get_acs(geography = “county”, variables = c(myvars), state = “NY”, output = “wide”, geometry = TRUE)</p>
+<p>NY_counties_withgeo</p>
+<p>{r} #all counties in the US? all_counties_withgeo &lt;- get_acs(geography = “county”, variables = c(myvars), output = “wide”, geometry = TRUE)</p>
+<p>all_counties_withgeo</p>
+</section>
+<section id="section" class="level2" style="font-style: normal; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);">
+<h2 style="font-style: normal; font-variant-caps: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration: none; caret-color: rgb(0, 0, 0); color: rgb(0, 0, 0);" class="anchored" data-anchor-id="section"></h2>
+</section>
 </section>
 
 </main>
