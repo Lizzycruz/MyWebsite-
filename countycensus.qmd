@@ -1,1 +1,11 @@
+![]()Interactive County Census
 
+To pull data for this, you have to use the tidycensus package to pull both census data and geospatial boundaries
+
+You have to install the packages needed for this: These packages include: TMAP, Mapview
+
+![](Code 1.png)
+
+![](Code 2.png)
+
+![](Screenshot 2023-12-14 at 11.23.26 PM.png)
