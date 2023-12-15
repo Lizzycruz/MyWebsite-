@@ -8,17 +8,15 @@ editor: visual
 
 ## Communication/Business/Journalism
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
-
 ## Home Page
 
 ![](HEADSHOT-%20Elizabeth%20Cruz%20.jpg)
 
-#### [County Census Page](https://10ce765c8b634adc82a60beba415adf9.app.posit.cloud/p/9ede8716/)
+#### [County Census Page](https://lizzycruz.github.io/MyWebsite-/countycensus)
 
-#### [School Paper](https://10ce765c8b634adc82a60beba415adf9.app.posit.cloud/p/13c398e5/)
+#### [School Paper](https://lizzycruz.github.io/MyWebsite-/schoolpaper)
 
-#### News Story
+#### [News Story](https://lizzycruz.github.io/MyWebsite-/news_story)
 
 #### [My GitHub](https://github.com/Lizzycruz/MyWebsite-)
 

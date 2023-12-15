@@ -1,11 +1,13 @@
-![]()Interactive County Census
+![]()<https://lizzycruz.github.io/MyWebsite-/#communicationbusinessjournalism>Interactive County Census
 
 To pull data for this, you have to use the tidycensus package to pull both census data and geospatial boundaries
 
 You have to install the packages needed for this: These packages include: TMAP, Mapview
 
-![](Code 1.png)
+![](Code%201.png)
 
-![](Code 2.png)
+![](Code%202.png)
 
-![](Screenshot 2023-12-14 at 11.23.26 PM.png)
+![](Screenshot%202023-12-14%20at%2011.23.26%20PM.png)
+
+[Back to home page](https://lizzycruz.github.io/MyWebsite-/#communicationbusinessjournalism)
