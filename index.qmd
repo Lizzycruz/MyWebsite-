@@ -12,13 +12,15 @@ Quarto enables you to weave together content and executable code into a finished
 
 ## Home Page
 
-![Picture of me playing soccer](images/DSC06972.JPG)
+![](HEADSHOT-%20Elizabeth%20Cruz%20.jpg)
 
-#### Links to other pages of my site?
+#### County Census Page
+
+#### School Paper
+
+#### News Story
 
 #### [My GitHub](https://github.com/Lizzycruz/MyWebsite-)
-
-#### ![](images/EAC%20Resume%20.pdf)
 
 #### Current Contact Information:
 
