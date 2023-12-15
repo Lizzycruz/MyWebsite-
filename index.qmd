@@ -25,3 +25,7 @@ editor: visual
 #### Cell: (516)-287-9661
 
 #### Email: ecruz18\@gwmail.gwu.edu
+
+#### Resume
+
+![](EAC Resume .pdf)
